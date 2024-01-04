@@ -1,9 +1,11 @@
+package chap03;
+
 class OperatorEx13 { 
       public static void main(String[] args) { 
-			char c1 = 'a';
+			char c1 = 'a'; // aë¥¼ ìœ ë‹ˆì½”ë“œë¡œ ë³€í™˜í•´ë¼ 97
 
-//			char c2 =  c1+1;           // ¶óÀÎ 5 : ÄÄÆÄÀÏ ¿¡·¯¹ß»ı!!!
-			char c2 = 'a'+1;           // ¶óÀÎ 6 : ÄÄÆÄÀÏ ¿¡·¯¾øÀ½
+//			char c2 =  c1+1;           
+			char c2 = 'a'+1;    // aëŠ” 97ì´ë‹¤ 1ì„ ë”í•˜ê³  ë¬¸ìë¡œ ë°”ê¿”ë¼    ê·¸ëŸ¬ë©´ b    
 
             System.out.println(c2); 
       } 
